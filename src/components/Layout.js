@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Navbar from '../components/Navbar'
 import './all.sass'
+import './styles.css'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -35,6 +36,8 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
+
+          <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet"></link>
         </Helmet>
         <Navbar />
         <div>{children}</div>

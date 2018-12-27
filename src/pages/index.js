@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
+
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
@@ -10,6 +11,41 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
+
+  
+    <section className="hero">
+      <div className="background-image"></div>
+      <div className="blockquote-container">
+      <blockquote>The body achieves what the mind believes</blockquote>
+      <cite>Ann Trason</cite>
+      </div>
+      <h2></h2>
+    </section>
+
+
+    <section>
+      <div className="item-container">
+
+      <div className="flex-container">
+      
+      <div>item 1</div>
+
+      <div>item 2</div>
+
+      <div>item 3</div>
+      
+      </div>
+
+      </div>
+
+
+    </section>
+    
+
+
+
+
+
         <section className="section">
           <div className="container">
             <div className="content">
