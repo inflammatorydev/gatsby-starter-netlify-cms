@@ -38,7 +38,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
+        title={post.frontmatter.title2}
         content={post.html}
       />
     </Layout>
@@ -56,7 +56,7 @@ export const aboutPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
+        title2
       }
     }
   }
