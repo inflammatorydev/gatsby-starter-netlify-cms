@@ -29,12 +29,12 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/templates/documents.yml"
+      - file: "src/templates/documents.md"
         label: "Documents"
         name: "documents"
         fields:
-          - {label: intro, name: intro, widget: "markdown"}
-          - {label: Title, name: title, widget: string}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "documents-page"}
+          - {label: "intro", name: "intro", widget: "string"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

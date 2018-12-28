@@ -1,8 +1,3 @@
----
-path: "/blog/my-first-post"
-date: "2017-11-07"
-title: "My first blog post"
----
 intro: >-
   This page scans the file system and list out files in the **/docs folder**
   based on either the folder they are in or their file name. Developers can just
