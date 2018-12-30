@@ -7,7 +7,13 @@ import Layout from '../components/Layout'
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    //const { edges: posts } = data.allMarkdownRemark
+
+
+    console.log('Data d is ', data);
+
+    const newData = data.allMarkdownRemark.edges[0].node;
+
 
     return (
       <Layout>
@@ -28,11 +34,22 @@ export default class IndexPage extends React.Component {
 
       <div className="flex-container">
       
-      <div>item 1</div>
+      <div>
+        <img src={newData.frontmatter.slot1image} />
+        <h2>{newData.frontmatter.slot1title}</h2>
+        <p>{newData.frontmatter.slot1desc}</p>
+      </div>
 
-      <div>item 2</div>
+      <div>
+      <img src={newData.frontmatter.slot2image} />
+        <h2>{newData.frontmatter.slo22title}</h2>
+        <p>{newData.frontmatter.slot2desc}</p></div>
 
-      <div>item 3</div>
+      <div>
+        <img src={newData.frontmatter.slot3image} />
+        <h2>{newData.frontmatter.slot3title}</h2>
+        <p>{newData.frontmatter.slot3desc}</p>
+      </div>
       
       </div>
 
@@ -51,7 +68,7 @@ export default class IndexPage extends React.Component {
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
             </div>
-            {posts
+            {/* {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
@@ -74,7 +91,7 @@ export default class IndexPage extends React.Component {
                     </Link>
                   </p>
                 </div>
-              ))}
+              ))} */}
           </div>
         </section>
       </Layout>
@@ -90,26 +107,51 @@ IndexPage.propTypes = {
   }),
 }
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
+export const aboutDocumentsQuery = graphql`
+query IndexQuery{
+  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/index/"} }) {
+    edges {
+      node {
+        id
+        fileAbsolutePath
+        html
+        frontmatter {
+          title
+          slot1title
+          slot1desc
+          slot1image
+          slot2title
+          slot2desc
+          slot2image
+          slot3title
+          slot3desc
+          slot3image
         }
       }
     }
-  }
-`
+  } 
+  }`
+
+// export const pageQuery = graphql`
+//   query IndexQuery {
+//     allMarkdownRemark(
+//       sort: { order: DESC, fields: [frontmatter___date] },
+//       filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+//     ) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 400)
+//           id
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             title
+//             templateKey
+//             date(formatString: "MMMM DD, YYYY")
+//           }
+//         }
+//       }
+//     }
+//   }
+// `

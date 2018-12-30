@@ -14,7 +14,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
+                The title is {title}
               </h2>
               <PageContent className="content" content={content} />
             </div>
@@ -34,12 +34,14 @@ AboutPageTemplate.propTypes = {
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
 
+  console.log('data is ', data);
+
   return (
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title2}
-        content={post.html}
+        title={data.allMarkdownRemark.edges[0].node.frontmatter.title}
+        content={data.allMarkdownRemark.edges[0].node.html}
       />
     </Layout>
   )
@@ -51,13 +53,59 @@ AboutPage.propTypes = {
 
 export default AboutPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title2
+// export const aboutDocumentsQuery = graphql`
+//   query DocumentsPage($id: String!) {
+//     markdownRemark(id: { eq: $id }) {
+//       html
+//       frontmatter {
+//         title2
+//       }
+//     }
+//   }
+// `
+
+export const aboutDocumentsQuery = graphql`
+query DocumentsPage{
+  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/index/"} }) {
+    edges {
+      node {
+        id
+        fileAbsolutePath
+        html
+        frontmatter {
+          title
+        }
       }
     }
-  }
-`
+  } 
+  }`
+
+
+  // query AssetsPhotos {
+  //   allFile(filter: {extension: {regex: "/(jpg)|(png)/"}, relativeDirectory: {eq: "photos"}}) {
+  //     edges {
+  //       node {
+  //         id
+  //         name
+  //         relativePath
+  //       }
+  //     }
+  //   }
+  // }
+
+// export const aboutDocumentsQuery = graphql`
+// query DocumentsPage()
+// {
+//   allMarkdownRemark(
+//         filter: { fileAbsolutePath: {regex : "\/pages/index/"} },
+//       ) {
+//     edges {
+//       node {
+//         id
+//         fileAbsolutePath
+//         html
+//       }
+//     }
+//   } 
+//   }`
+
