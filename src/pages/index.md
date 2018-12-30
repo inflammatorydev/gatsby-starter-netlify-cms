@@ -9,6 +9,6 @@ slot2desc: This is a description of Odyssey 2.
 slot2image: /img/sally.jpg
 slot3title: Odyssey 3
 slot3desc: This is a description of Odyssey 3.
-slot3image: /img/test2.jpg
+slot3image: /img/products-grid1.jpg
 ---
 
