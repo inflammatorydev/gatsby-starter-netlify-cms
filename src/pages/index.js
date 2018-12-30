@@ -35,7 +35,7 @@ export default class IndexPage extends React.Component {
       <div className="flex-container">
       
       <div>
-        <img src={newData.frontmatter.slot1image} />
+        <img src={newData.frontmatter.slot1image.childImageSharp.resize.src} />
         <h2>{newData.frontmatter.slot1title}</h2>
         <p>{newData.frontmatter.slot1desc}</p>
       </div>
@@ -119,7 +119,13 @@ query IndexQuery{
           title
           slot1title
           slot1desc
-          slot1image
+          slot1image  {
+            childImageSharp {
+                resize(width: 597, height: 382){
+                  src
+                  }
+            }
+          }
           slot2title
           slot2desc
           slot2image
