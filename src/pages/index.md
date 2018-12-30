@@ -3,7 +3,7 @@ templateKey: index-page
 title: This is the title of the index page
 slot1title: Odyssey
 slot1desc: This is a description of Odyssey.
-slot1image: /img/test2.jpg
+slot1image: /img/products-full-width.jpg
 slot2title: Training and Stuff
 slot2desc: This is a description of Training and stuff.
 slot2image: /img/sally.jpg
