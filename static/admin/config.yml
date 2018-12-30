@@ -61,7 +61,7 @@ collections:
           - {label: "slot1image", name: "slot1image", widget: "image", default: "/uploads/dog.jpg"}
           - {label: "slot2title", name: "slot2title", widget: "string"}
           - {label: "slot2desc", name: "slot2desc", widget: "markdown"}
-          - {label: "slot2image", name: "slot2image", widget: "string"}
+          - {label: "slot2image", name: "slot2image", widget: "image", default: "/uploads/dog.jpg"}
           - {label: "slot3title", name: "slot3title", widget: "string"}
           - {label: "slot3desc", name: "slot3desc", widget: "markdown"}
-          - {label: "slot3image", name: "slot3image", widget: "string"}
+          - {label: "slot3image", name: "slot3image", widget: "image", default: "/uploads/dog.jpg"}
