@@ -5,7 +5,8 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
 }
 
 html{
@@ -118,19 +119,44 @@ section{
 }
 
 .item-container .flex-container div {
-  flex-grow: 1;
+  width: 32%;
   margin: 0 10px;
   background-color: #fff;
-  height: 200px;
+  height: auto;
   border-top: 1px solid #143433;
   border-left: 1px solid #143433;
   border-right: 1px solid #143433;
 
 }
 
+.item-container .flex-container h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+}
+.item-container .flex-container p {
+  font-size: 18px;
+}
+
 .index-image {
   width: 100px;
 }
+
+div.test1.index-image-holder {
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+
+
+
+
+
+
 
 
 

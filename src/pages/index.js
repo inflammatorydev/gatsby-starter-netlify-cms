@@ -35,19 +35,20 @@ export default class IndexPage extends React.Component {
       <div className="flex-container">
       
       <div>
-      <img className="index-image" src={newData.frontmatter.slot1image.childImageSharp.resize.src} />
-      <h2>{newData.frontmatter.slot1title}</h2>
+        <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot1image.childImageSharp.fluid.src})`}}></div>
+      
+      <h2 style={{fontFamily: 'Open Sans'}}>{newData.frontmatter.slot1title}</h2>
         <p>{newData.frontmatter.slot1desc}</p>
 
       </div>
 
       <div>
-      <img className="index-image" src={newData.frontmatter.slot2image.childImageSharp.resize.src} />
+      <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot2image.childImageSharp.fluid.src})`}}></div>
         <h2>{newData.frontmatter.slot2title}</h2>
         <p>{newData.frontmatter.slot2desc}</p></div>
 
       <div>
-      <img className="index-image" src={newData.frontmatter.slot3image.childImageSharp.resize.src} />
+      <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot3image.childImageSharp.fluid.src})`}}></div>
         <h2>{newData.frontmatter.slot3title}</h2>
         <p>{newData.frontmatter.slot3desc}</p>
       </div>
@@ -122,27 +123,27 @@ query IndexQuery{
           slot1desc
           slot1image  {
             childImageSharp {
-                resize(width: 100, height: 100){
-                  src
-                  }
+              fluid(maxWidth: 400, maxHeight: 250) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
           slot2title
           slot2desc
           slot2image  {
             childImageSharp {
-                resize(width: 100, height: 100){
-                  src
-                  }
+              fluid(maxWidth: 400, maxHeight: 250) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
           slot3title
           slot3desc
           slot3image  {
             childImageSharp {
-                resize(width: 100, height: 100){
-                  src
-                  }
+              fluid(maxWidth: 400, maxHeight: 250) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
