@@ -12,6 +12,6 @@ slot3desc: This is a description of Trason Ultra Odyssey
 slot3image: /img/ann_and_dog.jpg
 slot4title: Peanut's Adventures
 slot4desc: Tteesafdasdfas
-slot4image: /img/apple-touch-icon.png
+slot4image: /img/peanut.jpg
 ---
 
