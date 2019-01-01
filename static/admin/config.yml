@@ -65,3 +65,6 @@ collections:
           - {label: "slot3title", name: "slot3title", widget: "string"}
           - {label: "slot3desc", name: "slot3desc", widget: "markdown"}
           - {label: "slot3image", name: "slot3image", widget: "image", default: "/uploads/dog.jpg"}
+          - {label: "slot4title", name: "slot4title", widget: "string"}
+          - {label: "slot4desc", name: "slot4desc", widget: "markdown"}
+          - {label: "slot4image", name: "slot4image", widget: "image", default: "/uploads/dog.jpg"}

@@ -43,33 +43,26 @@ export default class IndexPage extends React.Component {
         <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot1image.childImageSharp.fluid.src})`}}></div>
       
       <h2 style={{fontFamily: 'Open Sans'}}>{newData.frontmatter.slot1title}</h2>
-        <p>{newData.frontmatter.slot1desc}</p>
         
       </div>
-
-      
-
-
-
-
-
-
-
-
 
 
       <div className="test2">
       <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot2image.childImageSharp.fluid.src})`}}></div>
-        <h2>{newData.frontmatter.slot2title}</h2>
-        <p>{newData.frontmatter.slot2desc}</p></div>
+        <h2>{newData.frontmatter.slot2title}</h2></div>
 
       <div className="test2">
       <Link to="/odyessy">
       <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot3image.childImageSharp.fluid.src})`}}></div>
         <h2>{newData.frontmatter.slot3title}</h2>
-        <p>{newData.frontmatter.slot3desc}</p>
         </Link>
       </div>
+
+
+      <div className="test2">
+      <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot4image.childImageSharp.fluid.src})`}}></div>
+        <h2>{newData.frontmatter.slot4title}</h2></div>
+
       
       </div>
 
@@ -83,12 +76,12 @@ export default class IndexPage extends React.Component {
 
 
 
-        <section className="section">
+        {/* <section className="section">
           <div className="container">
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
             </div>
-            {/* {posts
+            {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
@@ -111,9 +104,9 @@ export default class IndexPage extends React.Component {
                     </Link>
                   </p>
                 </div>
-              ))} */}
+              ))} 
           </div>
-        </section>
+        </section> */}
       </Layout>
     )
   }
@@ -158,6 +151,15 @@ query IndexQuery{
           slot3title
           slot3desc
           slot3image  {
+            childImageSharp {
+              fluid(maxWidth: 400, maxHeight: 250) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          slot4title
+          slot4desc
+          slot4image  {
             childImageSharp {
               fluid(maxWidth: 400, maxHeight: 250) {
                 ...GatsbyImageSharpFluid

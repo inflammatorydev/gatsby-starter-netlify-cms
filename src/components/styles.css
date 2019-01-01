@@ -74,9 +74,7 @@ section{
 
 
 
-.hero .background-image {
-  background-image: url('../img/test2.jpg');
-}
+
 
 .hero h1 {
   -webkit-text-stroke: 1px #555;
@@ -105,45 +103,24 @@ section{
 
 
 
-.item-container {
-  position: absolute;
-  bottom: 150px;
-  display: block;
-  height: 200px;
-  width: 100%;
-  padding: 0 10%;
-}
-
-.item-container .flex-container {
-  display: flex;
-}
-
-.item-container .flex-container div {
-  width: 32%;
-  margin: 0 10px;
-  background-color: #fff;
-  height: auto;
-
-}
-
 .item-container .flex-container h2 {
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   letter-spacing: 0.02em;
 }
 .item-container .flex-container p {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .index-image {
   width: 100px;
 }
 
-div.test1.index-image-holder {
+.test2 div.test1.index-image-holder {
   background-size: cover;
-  height: 200px;
+  height: 120px;
   width: 100%;
   margin: 0 0 10px;
 }
@@ -293,76 +270,27 @@ header nav li:last-child{
 
 
 
-/*----------------
- 	Hero Section
-----------------*/
-
-.hero{
-	position: relative;
-  justify-content: center;
-  padding-bottom: 200px;
-  margin-bottom: 50px;
-	min-height: 100vh;
-	color: #fff;
-	text-align: center;
-}
-
-.hero .background-image{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-color: #2196F3;
-	z-index: -1;
-}
-
-.hero .background-image:after{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #438ff0;
-	opacity: 0.3;
-}
-
-.hero h1{
-	font: bold 60px 'Open Sans', sans-serif;
-  margin-bottom: 15px;
-  padding-bottom: 70px; 
-}
-
-.hero h3{
-	font: normal 28px 'Open Sans', sans-serif;
-	margin-bottom: 40px;
-}
-
-.hero a.btn{
-	padding: 20px 46px;
-}
-
 
 
 
 
 
 .blockquote-container {
-  margin-bottom: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  max-width: 300px;
 }
 
 
 blockquote {
   font-family: 'Special Elite', cursive;
 	font-weight: 100;
-	font-size: 50px;
-	max-width: 800px;
+	font-size: 24px;
 	line-height: 1.4;
 	position: relative;
 	margin: 0 auto 20px;
-  padding: 10px 64px 10px 74px;
+  padding: 10px 24px 10px 24px;
   color: #f7e294;
 
 
@@ -380,20 +308,20 @@ blockquote:before,
 blockquote:after {
 	position: absolute;
 	color: #f7e294;
-	font-size: 8rem;
+	font-size: 5rem;
 	width: 4rem;
 	height: 4rem;
 }
 
 blockquote:before {
 	content: '“';
-	left: 0;
+	left: -30px;
 	top: -2rem;
 }
 
 blockquote:after {
 	content: '”';
-	right: 0;
+	right: -30px;
 	bottom: 1rem;
 }
 
@@ -414,6 +342,366 @@ cite {
      -1px 1px 0 #666,
       1px 1px 0 #666;
 }
+
+
+
+
+
+/*----------------
+ 	Hero Section
+----------------*/
+
+
+/* ********** 0px + ************************************ */
+
+
+
+@media (min-width: 1px){
+
+  .nav h2 a {
+    width: 160px;
+    height: 123px;
+  }
+
+
+  .item-container {
+    position: absolute;
+    bottom: 150px;
+    display: block;
+    height: 200px;
+    width: 100%;
+    padding: 0 10%;
+  }
+  
+  .item-container .flex-container {
+    display: flex;
+  }
+  
+  .item-container .flex-container div {
+    width: 32%;
+    margin: 0 10px;
+    background-color: #fff;
+  
+  }
+
+
+
+
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .item-container .flex-container .test2 {
+    width: 100%;
+  }
+
+  
+
+  .hero{
+    position: relative;
+    justify-content: center;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero .background-image {
+    background-image: url('../img/ann_and_dog-min.jpg');
+  }
+  
+  .hero .background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .hero .background-image:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #438ff0;
+    opacity: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********** 800px + ************************************ */
+
+
+
+
+@media (min-width: 800px){
+
+
+  .nav nav {
+    display: none;
+  }
+  .nav h2 a {
+    width: 234px;
+    height: 180px;
+  }
+
+
+  .item-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 200px;
+    padding: 0 10%;
+    width: auto;
+  }
+  
+  .item-container .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .item-container .flex-container div {
+    width: 100%;
+    margin: 0 10px 20px;
+    background-color: #fff;
+  
+  }
+
+  .item-container .flex-container h2 {
+    font-size: 24px;
+  }
+
+  .item-container .flex-container p {
+    font-size: 14px;
+  }
+
+
+
+.hero{
+	position: relative;
+  justify-content: center;
+  padding-bottom: 200px;
+  margin-bottom: 50px;
+	min-height: 100vh;
+	color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.hero .background-image {
+  background-image: url('../img/ann_and_dog-min.jpg');
+}
+
+.hero .background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 100%;
+  max-width: 1600px;
+	height: 100vh;
+	background-size: cover;
+	z-index: -1;
+}
+
+.hero .background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #438ff0;
+	opacity: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********** 1200px + ************************************ */
+
+
+@media (min-width: 1200px){
+
+  .blockquote-container {
+    max-width: 500px;
+  }
+
+  blockquote {
+    font-size: 30px;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-size: 6rem;
+  }
+
+  .nav nav {
+    display: none;
+  }
+  .nav h2 a {
+    width: 234px;
+    height: 180px;
+  }
+
+
+  .item-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 200px;
+    padding: 0 10%;
+    width: auto;
+  }
+  
+  .item-container .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .item-container .flex-container div {
+    width: 100%;
+    margin: 0 10px 20px;
+    background-color: #fff;
+  
+  }
+
+  .item-container .flex-container h2 {
+    font-size: 30px;
+  }
+
+  .item-container .flex-container p {
+    font-size: 18px;
+  }
+
+
+.hero{
+	position: relative;
+  justify-content: center;
+  padding-bottom: 200px;
+  margin-bottom: 50px;
+	min-height: 100vh;
+	color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.hero .background-image {
+  background-image: url('../img/ann_and_dog-min.jpg');
+}
+
+.hero .background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 100%;
+  max-width: 1600px;
+	height: 100vh;
+	background-size: cover;
+	z-index: -1;
+}
+
+.hero .background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #438ff0;
+	opacity: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero h1{
+	font: bold 60px 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+  padding-bottom: 70px; 
+}
+
+.hero h3{
+	font: normal 28px 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+}
+
+.hero a.btn{
+	padding: 20px 46px;
+}
+
+
+
+
 
 
 
