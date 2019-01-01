@@ -38,9 +38,13 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
 
           <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></link>
         </Helmet>
-        <Navbar />
-        <div>{children}</div>
+        
+        <div className="layout-container">
+          <Navbar />
+          {children}
+        </div>
       </div>
     )}
   />

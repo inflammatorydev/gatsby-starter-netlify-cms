@@ -29,7 +29,7 @@ export default class IndexPage extends React.Component {
     </section>
 
 
-    <section>
+
       <div className="item-container">
 
       <div className="flex-container">
@@ -68,9 +68,6 @@ export default class IndexPage extends React.Component {
 
       </div>
 
-
-    </section>
-    
 
 
 

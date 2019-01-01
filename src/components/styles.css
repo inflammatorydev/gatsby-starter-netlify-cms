@@ -66,7 +66,11 @@ section{
 
 
 
-
+.layout-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
 
 
 
@@ -120,14 +124,26 @@ section{
 
 .test2 div.test1.index-image-holder {
   background-size: cover;
+  background-position:center;
   height: 120px;
   width: 100%;
   margin: 0 0 10px;
 }
 
 div.test2 {
-  padding: 10px;
+  padding: 1px;
   border: 1px solid #999;
+  cursor: pointer;
+}
+
+div.test2:hover {
+  border: 1px solid #f8edc2;
+  background-color: #f8edc2 !important;
+}
+
+div.test2 a:hover {
+  background-color: #f8edc2;
+  display: block;
 }
 
 
@@ -221,12 +237,12 @@ header{
 	top: 0;
 	left: 0;
 	z-index: 10;
-	width: 100%;
+	width: 30%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	color: #fff;
-	padding: 35px 100px 0;
+	padding: 35px 10px 0;
 }
 
 header h2{
@@ -247,14 +263,6 @@ header nav li:first-child{
 
 header nav li:last-child{
 	margin-right: 0;	
-}
-
-
-
-@media (max-width: 1000px){
-	header{
-		padding: 20px 50px;
-	}
 }
 
 
@@ -368,9 +376,10 @@ cite {
     position: absolute;
     bottom: 150px;
     display: block;
-    height: 200px;
+    height: auto;
     width: 100%;
-    padding: 0 10%;
+    padding: 0 30px;
+    background-color: rgba(255,255,255,0.3)
   }
   
   .item-container .flex-container {
@@ -394,6 +403,10 @@ cite {
 
   .item-container .flex-container .test2 {
     width: 100%;
+  }
+
+  .item-container .flex-container h2 {
+    font-size: 14px;
   }
 
   
@@ -476,8 +489,7 @@ cite {
     top: 0;
     right: 0;
     display: block;
-    height: 200px;
-    padding: 0 10%;
+    padding: 0 30px;
     width: auto;
   }
   
@@ -496,7 +508,7 @@ cite {
   }
 
   .item-container .flex-container h2 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .item-container .flex-container p {
@@ -591,8 +603,7 @@ cite {
     top: 0;
     right: 0;
     display: block;
-    height: 200px;
-    padding: 0 10%;
+    padding: 0 30px;
     width: auto;
   }
   
@@ -611,7 +622,7 @@ cite {
   }
 
   .item-container .flex-container h2 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .item-container .flex-container p {

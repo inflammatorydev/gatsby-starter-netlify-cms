@@ -10,8 +10,8 @@ slot2image: /img/sally.jpg
 slot3title: Odyssey 3
 slot3desc: This is a description of Odyssey 3.
 slot3image: /img/ann_and_dog.jpg
-slot4title: Peanut's Adventures
+slot4title: Peanuts Adventures
 slot4desc: Tteesafdasdfas
-slot4image: /img/peanut.jpg
+slot4image: /img/ann_and_dog.jpg
 ---
 
