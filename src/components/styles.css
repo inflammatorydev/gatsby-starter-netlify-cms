@@ -164,7 +164,13 @@ div.test2 {
 
 
 
-
+section.odyessy .container.main {
+  position: absolute;
+  top: 50vh;
+  background-color: #fff;
+  border: 1px solid #333;
+  text-align: center;
+}
 
 
 

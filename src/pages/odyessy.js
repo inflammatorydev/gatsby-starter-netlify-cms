@@ -2,9 +2,28 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import USAMap from "react-usa-map";
 
 
 export default class OdyessyPage extends React.Component {
+  mapHandler = (event) => {
+    alert(event.target.dataset.name);
+  };
+
+  statesCustomConfig = () => {
+    return {
+      "OR": {
+        fill: "green",
+        clickHandler: (event) => console.log('Custom handler for OR', event.target.dataset)
+      },
+      "TX": {
+        fill: "green",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+    };
+  };
+
+
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -22,8 +41,6 @@ export default class OdyessyPage extends React.Component {
     <section className="hero">
       <div className="background-image"></div>
       <div className="blockquote-container">
-      <blockquote>The body achieves what the mind believes</blockquote>
-      <cite>Ann Trason</cite>
       </div>
       <h2></h2>
     </section>
@@ -32,16 +49,25 @@ export default class OdyessyPage extends React.Component {
 
 
 
-        <section className="section">
-          <div className="container">
+        <section className="section odyessy">
+          <div className="container main">
             <div className="content">
+
+
+
+
+
+<USAMap customize={this.statesCustomConfig()} onClick={this.mapHandler} />
+
+
+
               <h1 className="has-text-weight-bold is-size-2">Latest Posts</h1>
             </div>
             {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
+                  style={{ borderBottom: '1px solid #333', padding: '2em 4em' }}
                   key={post.id}
                 >
                   <p>
