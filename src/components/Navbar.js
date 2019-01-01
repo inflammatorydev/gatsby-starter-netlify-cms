@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
   
 
     <header className="nav">
-      <h2><a href="#"></a></h2>
+      <h2><a href="/"></a></h2>
       <nav>
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>

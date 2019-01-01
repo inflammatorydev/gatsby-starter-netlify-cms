@@ -33,14 +33,30 @@ export default class IndexPage extends React.Component {
       <div className="item-container">
 
       <div className="flex-container">
+
+
+
+
       
       <div className="test2">
+      
         <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot1image.childImageSharp.fluid.src})`}}></div>
       
       <h2 style={{fontFamily: 'Open Sans'}}>{newData.frontmatter.slot1title}</h2>
         <p>{newData.frontmatter.slot1desc}</p>
-
+        
       </div>
+
+      
+
+
+
+
+
+
+
+
+
 
       <div className="test2">
       <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot2image.childImageSharp.fluid.src})`}}></div>
@@ -48,9 +64,11 @@ export default class IndexPage extends React.Component {
         <p>{newData.frontmatter.slot2desc}</p></div>
 
       <div className="test2">
+      <Link to="/odyessy">
       <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot3image.childImageSharp.fluid.src})`}}></div>
         <h2>{newData.frontmatter.slot3title}</h2>
         <p>{newData.frontmatter.slot3desc}</p>
+        </Link>
       </div>
       
       </div>
