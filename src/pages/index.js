@@ -13,6 +13,14 @@ export default class IndexPage extends React.Component {
       console.log('ok!!!!!');
       this.setState({ togglingNav: !this.state.togglingNav});
     };
+
+    // window.innerWidth <= 760}
+  }
+
+  componentDidMount() {
+    if (window.innerWidth <= 800) {
+      this.setState({ togglingNav: false});
+    }
   }
 
 
