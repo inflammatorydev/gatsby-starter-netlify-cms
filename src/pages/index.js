@@ -5,6 +5,17 @@ import Layout from '../components/Layout'
 
 
 export default class IndexPage extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { togglingNav: true };
+    this.toggleNav = e => {
+      console.log('ok!!!!!');
+      this.setState({ togglingNav: !this.state.togglingNav});
+    };
+  }
+
+
   render() {
     const { data } = this.props
     //const { edges: posts } = data.allMarkdownRemark
@@ -16,7 +27,7 @@ export default class IndexPage extends React.Component {
 
 
     return (
-      <Layout>
+      <Layout toggleNav={this.toggleNav}>
 
   
     <section className="hero">
@@ -29,7 +40,7 @@ export default class IndexPage extends React.Component {
     </section>
 
 
-
+{this.state.togglingNav && 
       <div className="item-container">
 
       <div className="flex-container">
@@ -67,6 +78,8 @@ export default class IndexPage extends React.Component {
       </div>
 
       </div>
+
+}
 
 
 

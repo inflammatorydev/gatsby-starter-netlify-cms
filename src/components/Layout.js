@@ -5,8 +5,11 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from '../components/Navbar'
 import './all.sass'
 import './styles.css'
+import { checkPropTypes } from 'prop-types';
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, toggleNav, togglingNav }) => {
+  console.log('ddd ', toggleNav);
+  return (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
@@ -42,12 +45,12 @@ const TemplateWrapper = ({ children }) => (
         </Helmet>
         
         <div className="layout-container">
-          <Navbar />
+          <Navbar toggleNav={toggleNav} />
           {children}
         </div>
       </div>
     )}
   />
-)
+)}
 
 export default TemplateWrapper

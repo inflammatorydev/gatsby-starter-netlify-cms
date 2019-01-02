@@ -111,7 +111,8 @@ section{
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
+  padding-bottom: 5px;
   letter-spacing: 0.02em;
 }
 .item-container .flex-container p {
@@ -266,15 +267,6 @@ header nav li:last-child{
 }
 
 
-@media (max-width: 700px){
-	header{
-		flex-direction: column;		
-	}
-
-	header h2{
-		margin-bottom: 15px;
-	}
-}
 
 
 
@@ -366,17 +358,46 @@ cite {
 
 @media (min-width: 1px){
 
+  .nav {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
   .nav h2 a {
     width: 160px;
     height: 123px;
+    position: absolute;
+    top: 0;
+  }
+
+  .nav nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 100vw;
+
+  }
+
+  header.nav nav li {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .nav nav li a {
+    font-size: 20px;
   }
 
 
+  .test2 h2 {
+    text-transform: uppercase;
+  }
+
   .item-container {
     position: absolute;
-    bottom: 150px;
-    display: block;
-    height: auto;
+    top: 150px;
+    height: 100vh;
     width: 100%;
     padding: 0 30px;
     background-color: rgba(255,255,255,0.3)
@@ -403,6 +424,7 @@ cite {
 
   .item-container .flex-container .test2 {
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .item-container .flex-container h2 {
@@ -423,12 +445,9 @@ cite {
   
   .hero .background-image {
     background-image: url('../img/ann_and_dog-min.jpg');
-  }
-  
-  .hero .background-image{
     position: absolute;
     top: 0;
-    left: 0;
+    left: -160px;
     width: 1024px;
     height: 100vh;
     background-size: cover;
@@ -439,7 +458,7 @@ cite {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: -160px;
     width: 100%;
     height: 100%;
     background-color: #438ff0;
@@ -478,9 +497,16 @@ cite {
   .nav nav {
     display: none;
   }
+
+  .nav {
+    height: auto;
+  }
+
   .nav h2 a {
-    width: 234px;
-    height: 180px;
+    width: 160px;
+    height: 123px;
+    position: absolute;
+    top: 0;
   }
 
 
@@ -498,6 +524,10 @@ cite {
     flex-direction: column;
     width: 300px;
     margin-top: 20px;
+  }
+
+  .item-container .flex-container .test2 {
+    margin-bottom: 0;
   }
   
   .item-container .flex-container div {
@@ -617,12 +647,13 @@ cite {
   .item-container .flex-container div {
     width: 100%;
     margin: 0 10px 20px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.7);
   
   }
 
   .item-container .flex-container h2 {
-    font-size: 24px;
+    font-size: 18px;
+    padding-bottom: 5px;
   }
 
   .item-container .flex-container p {
@@ -966,13 +997,6 @@ footer p a{
 	color: #fff;
 }
 
-@media (max-width: 700px){
-
-	footer{
-		padding: 80px 15px;
-	}
-
-}
 
 
 /* -- Demo ads -- */

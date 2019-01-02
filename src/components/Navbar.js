@@ -29,20 +29,19 @@ const Navbar = class extends React.Component {
  }
  
  render() {
-   return (
+  const { toggleNav} = this.props
+    return (
+      <header className="nav">
+        <h2><a href="/"></a></h2>
+        <nav>
+          <li><a onClick={toggleNav}>Menu
+          </a>
+          </li>
+        </nav>
+      </header>
   
-
-    <header className="nav">
-      <h2><a href="/"></a></h2>
-      <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contacts</a></li>
-      </nav>
-    </header>
-
-  )}
+    )
+  }
 }
 
 export default Navbar
