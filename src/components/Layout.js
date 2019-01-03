@@ -39,6 +39,7 @@ const TemplateWrapper = ({ children, toggleNav, togglingNav }) => {
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
           <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></link>
