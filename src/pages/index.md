@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: This is the title of the index page
+title: This is the title of the index page99999
 slot1title: Personal Profile
 slot1desc: This is a description of Personal Profile
 slot1image: /img/test2.jpg
