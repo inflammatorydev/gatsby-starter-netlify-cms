@@ -17,6 +17,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 The title is {title}
               </h2>
               <PageContent className="content" content={content} />
+
+
+
             </div>
           </div>
         </div>
@@ -66,7 +69,7 @@ export default AboutPage
 
 export const aboutDocumentsQuery = graphql`
 query DocumentsPage{
-  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/index/"} }) {
+  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/about/"} }) {
     edges {
       node {
         id

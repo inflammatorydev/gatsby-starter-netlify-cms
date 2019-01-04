@@ -162,10 +162,11 @@ div.test2 a:hover {
 
 section.odyessy .container.main {
   position: absolute;
-  top: 50vh;
+  top: 10vh;
   background-color: #fff;
   border: 1px solid #333;
   text-align: center;
+  width: 90vw;
 }
 
 
@@ -509,6 +510,17 @@ cite {
 
 @media (min-width: 800px){
 
+
+  section.odyessy .container.main {
+    position: absolute;
+    top: 10vh;
+    background-color: #fff;
+    border: 1px solid #333;
+    text-align: center;
+    width: 70vw;
+  }
+  
+
   .blockquote-container cite {
     display: block;
   }
@@ -621,6 +633,17 @@ cite {
 
 
 @media (min-width: 1200px){
+
+
+
+  section.odyessy .container.main {
+    position: absolute;
+    top: 10vh;
+    background-color: #fff;
+    border: 1px solid #333;
+    text-align: center;
+    width: 80vw;
+  }
 
   .blockquote-container {
     max-width: 500px;
