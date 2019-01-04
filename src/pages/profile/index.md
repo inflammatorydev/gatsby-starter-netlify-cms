@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: profile-page
 title: About our values588999999991234
 title2: something77
 ---

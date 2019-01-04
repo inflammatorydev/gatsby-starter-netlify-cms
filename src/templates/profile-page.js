@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const ProfilePageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -28,20 +28,20 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-AboutPageTemplate.propTypes = {
+ProfilePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const ProfilePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   console.log('data is ', data);
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <ProfilePageTemplate
         contentComponent={HTMLContent}
         title={data.allMarkdownRemark.edges[0].node.frontmatter.title}
         content={data.allMarkdownRemark.edges[0].node.html}
@@ -50,11 +50,11 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+ProfilePage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default ProfilePage
 
 // export const aboutDocumentsQuery = graphql`
 //   query DocumentsPage($id: String!) {
@@ -67,9 +67,9 @@ export default AboutPage
 //   }
 // `
 
-export const aboutDocumentsQuery = graphql`
-query DocumentsPage{
-  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/about/"} }) {
+export const profileDocumentsQuery = graphql`
+query ProfilePage{
+  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/profile/"} }) {
     edges {
       node {
         id
