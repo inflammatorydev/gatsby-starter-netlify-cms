@@ -1,7 +1,6 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values588
+templateKey: about-page
+title: About our values588999999991234
 title2: something77
 ---
 ### Shade-grown coffee
