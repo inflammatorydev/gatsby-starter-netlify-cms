@@ -5,11 +5,13 @@ title2: ..
 ---
 ## 
 
-![](/img/ann-with-mum2.jpg)
+```
+
+```
 
 ## I learned early from my parents that the best reward for working hard to achieve your passion is the opportunity to give something back. My father is a retired educator and coach.  He always worked hard to share his knowledge and help his students succeed. My mother was an extraordinary woman, a zoologist who earned a Masters from Stanford in 1955 and a Ph.D. from Cal in 1959 when it was very rare for a woman to succeed in the sciences .
 
-![](/img/ann-with-mum.jpg)
+![](/img/ann-with-mum2.jpg)
 
 ![](/img/mom-ann-western-states-100-mile-1989.jpg)
 
