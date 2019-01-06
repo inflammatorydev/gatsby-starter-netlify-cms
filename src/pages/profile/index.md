@@ -33,13 +33,13 @@ Ann is a featured columnist at Ultrarunning Magazine
 
 ## Ann Trason Running Career Highlights
 
-\
+
 
 ## Western States Endurance Run
 
 14 time women’s winner (1989-1999 & 2000-2003) Held course record for 18 years (17:37), until surpassed by Ellie Greenwood in 2012. Second Place Overall 1995 & 1994, third place 1996, 1993, & 1992 Thirteen times in top 10 overall.
 
-\
+
 
 ## Leadville Trail 100
 
@@ -47,34 +47,34 @@ Four-time women’s winner (1988, 1990, 1994, 1998), course record holder (18:06
 
 Second overall in 1994, third Place 1990
 
-\
+
 
 ## Grand Slam Finisher 1998
 
 (79:23:21)
 
-\
+
 Fastest cumulative female time
 
-\
+
 
 ## Comrades Marathon (54 miles)
 
 South Africa Two-time women’s winner 1996 and 1999, and set the uphill women’s course record (6:13) in 1996.
 
-\
+
 
 ## 100 Kilometer World Championship
 
 Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
-\
+
 
 ## 1989 TAC(now U.S.A Track & Field)
 
 24-Hour National Championship First & only women to win National Track & Field Championship outright.
 
-\
+
 
 ## Races won outright
 
@@ -88,17 +88,17 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 1989 24 Hour National Championship
 
-\
+
 
 ## U.S. Olympic Marathon Trails Qualifier
 
 1988, 1992 and 1996
 
-\
+
 
 ## Only person to qualify for the Olympic Trails Marathon “enroute” to a longer distance
 
-\
+
 
 ## Awards
 
@@ -110,7 +110,7 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 1994 Hall of Fame Inductee, Road Runners Club of America
 
-\
+
 
 ## Personal Bests
 
@@ -120,5 +120,5 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 ![](/img/ann-with-group.jpg)
 
-\
+
 For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com
