@@ -218,10 +218,8 @@ section h3.title{
 
 section p{
 	max-width: 800px;
-	text-align: center;
 	margin-bottom: 35px;
-	padding: 0 20px;
-	line-height: 2;
+  padding: 0 20px;
 }
 
 ul.grid{
