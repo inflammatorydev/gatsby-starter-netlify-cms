@@ -37,6 +37,10 @@ Ann is a featured columnist at Ultrarunning Magazine
 
 14 time women’s winner (1989-1999 & 2000-2003) Held course record for 18 years (17:37), until surpassed by Ellie Greenwood in 2012. Second Place Overall 1995 & 1994, third place 1996, 1993, & 1992 Thirteen times in top 10 overall.
 
+
+
+![](/img/ann-cougar-1989-martin-jones.jpg)
+
 ## Leadville Trail 100
 
 Four-time women’s winner (1988, 1990, 1994, 1998), course record holder (18:06)
@@ -52,6 +56,8 @@ Fastest cumulative female time
 ## Comrades Marathon (54 miles)
 
 South Africa Two-time women’s winner 1996 and 1999, and set the uphill women’s course record (6:13) in 1996.
+
+![](/img/ann-nelson-mandella-comrades-1996.jpg)
 
 ## 100 Kilometer World Championship
 
@@ -94,9 +100,5 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 (Road) 40 Mile: 4:26:13 50 Mile: 5:40:18 100 Km: 7:00:47 12 Hour: 90 mi, 1312 yd
 
 (Track) 12 Hour: 91mi, 1258 yd 100 mile: 14:29:44 100 Km: 7:48:14
-
-
-
-![](/img/ann-with-group.jpg)
 
 For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com
