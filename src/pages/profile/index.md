@@ -21,7 +21,11 @@ I learned early from my parents that the best reward for working hard to achieve
 
 ## Ann Trason is a 14-time women’s champion at the Western States 100.
 
-**She set World Records at the 50-mile (5:40:18 in 1991), 100K (7:00:47, 1995), 12-Hour (91 miles 1312 yards, 1991) and 100-mile (13:47:42, 1991) distances.**
+**She set World Records at the 50-mile (5:40:18 in 1991), 
+
+100K (7:00:47, 1995), 
+12-Hour (91 miles 1312 yards, 1991) 
+and 100-mile (13:47:42, 1991) distances.**
 
 Ann gives back to the sport-she was race director of the Dick Collins Fire Trails 50 in Northern California for 11 years, and has taught science at the college level.
 
