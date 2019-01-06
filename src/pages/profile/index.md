@@ -11,13 +11,13 @@ title2: ..
 
 I learned early from my parents that the best reward for working hard to achieve your passion is the opportunity to give something back. My father was a retired educator and coach.  He always worked hard to share his knowledge and help his students succeed. My mother was an extraordinary woman, a zoologist who earned a Masters from Stanford in 1955 and a Ph.D. from Cal in 1959 when it was very rare for a woman to succeed in the sciences .
 
+## 
+
+## 
+
 ![](/img/ann-with-mum2.jpg)
 
 ![](/img/mom-ann-western-states-100-mile-1989.jpg)
-
-## 
-
-## 
 
 ## Ann Trason is a 14-time women’s champion at the Western States 100.
 
@@ -94,6 +94,8 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 (Road) 40 Mile: 4:26:13 50 Mile: 5:40:18 100 Km: 7:00:47 12 Hour: 90 mi, 1312 yd
 
 (Track) 12 Hour: 91mi, 1258 yd 100 mile: 14:29:44 100 Km: 7:48:14
+
+
 
 ![](/img/ann-with-group.jpg)
 
