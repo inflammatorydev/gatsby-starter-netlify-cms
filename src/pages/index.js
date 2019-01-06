@@ -59,7 +59,7 @@ export default class IndexPage extends React.Component {
       
       <div className="test2">
 
-      <Link to="/odyessy">
+      <Link to="/profile">
       
         <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot1image.childImageSharp.fluid.src})`}}></div>
       
