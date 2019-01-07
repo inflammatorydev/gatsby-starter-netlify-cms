@@ -38,6 +38,14 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Title2", name: "title2", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/coaching/index.md"
+        label: "Coaching"
+        name: "coaching"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "coaching-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Title2", name: "title2", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/templates/documents.md"
         label: "Documents"
         name: "documents"
