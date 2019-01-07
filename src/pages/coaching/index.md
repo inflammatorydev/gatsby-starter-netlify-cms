@@ -3,7 +3,25 @@ templateKey: coaching-page
 title: Coaching Services
 title2: ..
 ---
-**Online Coaching: Personalized Run Coaching Service**
+If there’s one thing you can say about me, it’s that I love running. A lot.
+
+\
+I love kicking up dust along a coastal trail on a sunny day with the ocean sparkling in the distance, or stepping out of my front door for fifty miles through the oak-forested hills, once in a while, just because.
+
+\
+I love running with my dog, Zooey, and, before she passed over the rainbow bridge, Wasatch, the sweet abandoned puppy whom I first met in the mountains of Utah.
+
+\
+I love running with and crewing friends during difficult races or pacing a complete stranger through the cold night of their first hundred-mile ultra marathon. My passion is helping others find their own passion through running!
+
+\
+If you’re interested in working together on developing a solid training plan, that helps you reach and exceed your endurance running goals, get in touch and let’s get started.
+
+\
+Please,do not hesitate to contact me at anntrasoncoaching@gmail.com
+
+\***\***\
+Online Coaching: Personalized Run Coaching Service\*\*
 
 This plan is for runners who are interested in a fully customized training schedule, updated each week based on how the previous week’s training went. We will make ourselves available to answer all of your questions via email, phone (twice monthly) and text message as needed.
 
@@ -34,20 +52,14 @@ Efficient running movement
 
 The fee for monthly coaching is $160 and requires a 3-month commitment. Ongoing is, month-by-month basis with discounts if you sign up for six months at a time. Contact Ann through the form below.
 
-
-
 ![](/img/22756c0d-b9c5-442f-9a45-d51f53a6245c.jpeg)
 
 **Hourly Consultation**
 
 Need to work on specific skills? Want to “Ask Ann” a question on a certain topic? I’m available for sport specific training sessions. $60/hr. Contact Ann through the form below or by email at anntrasoncoaching@gmail.com.
 
-
-
 ![](/img/c61a7c37-77b1-4950-9f0f-5791409fa553.jpeg)
 
 Contact Ann
-
-
 
 ![ghghr](/img/c89f71d3-b318-4f38-9baa-2a37236d0fda.jpeg "jhuy")
