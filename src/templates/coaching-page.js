@@ -69,7 +69,7 @@ export default CoachingPage
 
 export const profileDocumentsQuery = graphql`
 query CoachingPage{
-  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/profile/"} }) {
+  allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/coaching/"} }) {
     edges {
       node {
         id
