@@ -110,4 +110,4 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 (Track) 12 Hour: 91mi, 1258 yd 100 mile: 14:29:44 100 Km: 7:48:14
 
-For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com
+For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com ...
