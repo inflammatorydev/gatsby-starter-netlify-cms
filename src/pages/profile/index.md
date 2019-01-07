@@ -19,7 +19,7 @@ I learned early from my parents that the best reward for working hard to achieve
 
 ![](/img/mom-ann-western-states-100-mile-1989.jpg)
 
-## Ann Trason is a 14-time women’s champion at the Western States 100.
+**Ann Trason is a 14-time women’s champion at the Western States 100**
 
 **She set World Records** 
 
