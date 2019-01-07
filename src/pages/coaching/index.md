@@ -3,7 +3,7 @@ templateKey: coaching-page
 title: Coaching Services
 title2: ..
 ---
-## Online Coaching: Personalized Run Coaching Service
+**Online Coaching: Personalized Run Coaching Service**
 
 This plan is for runners who are interested in a fully customized training schedule, updated each week based on how the previous week’s training went. We will make ourselves available to answer all of your questions via email, phone (twice monthly) and text message as needed.
 
@@ -34,8 +34,20 @@ Efficient running movement
 
 The fee for monthly coaching is $160 and requires a 3-month commitment. Ongoing is, month-by-month basis with discounts if you sign up for six months at a time. Contact Ann through the form below.
 
+
+
+![](/img/22756c0d-b9c5-442f-9a45-d51f53a6245c.jpeg)
+
 **Hourly Consultation**
 
 Need to work on specific skills? Want to “Ask Ann” a question on a certain topic? I’m available for sport specific training sessions. $60/hr. Contact Ann through the form below or by email at anntrasoncoaching@gmail.com.
 
+
+
+![](/img/c61a7c37-77b1-4950-9f0f-5791409fa553.jpeg)
+
 Contact Ann
+
+
+
+![ghghr](/img/c89f71d3-b318-4f38-9baa-2a37236d0fda.jpeg "jhuy")
