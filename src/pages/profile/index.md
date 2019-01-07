@@ -27,7 +27,6 @@ at the 50-mile (5:40:18 in 1991),
 
 100K (7:00:47, 1995), 
 
-
 12-Hour (91 miles 1312 yards, 1991) 
 
 and 100-mile (13:47:42, 1991) distances.
@@ -45,8 +44,6 @@ Ann is a featured columnist at Ultrarunning Magazine
 ## Western States Endurance Run
 
 14 time women’s winner (1989-1999 & 2000-2003) Held course record for 18 years (17:37), until surpassed by Ellie Greenwood in 2012. Second Place Overall 1995 & 1994, third place 1996, 1993, & 1992 Thirteen times in top 10 overall.
-
-
 
 ![](/img/ann-cougar-1989-martin-jones.jpg)
 
@@ -110,4 +107,8 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 (Track) 12 Hour: 91mi, 1258 yd 100 mile: 14:29:44 100 Km: 7:48:14
 
-For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com ...
+
+
+![](/img/ann-with-group.jpg)
+
+For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com .
