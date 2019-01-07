@@ -5,13 +5,10 @@ title2: ..
 ---
 If there’s one thing you can say about me, it’s that I love running. A lot.
 
-\
 I love kicking up dust along a coastal trail on a sunny day with the ocean sparkling in the distance, or stepping out of my front door for fifty miles through the oak-forested hills, once in a while, just because.
 
-\
 I love running with my dog, Zooey, and, before she passed over the rainbow bridge, Wasatch, the sweet abandoned puppy whom I first met in the mountains of Utah.
 
-\
 I love running with and crewing friends during difficult races or pacing a complete stranger through the cold night of their first hundred-mile ultra marathon. My passion is helping others find their own passion through running!
 
 \
@@ -20,8 +17,7 @@ If you’re interested in working together on developing a solid training plan, 
 \
 Please,do not hesitate to contact me at anntrasoncoaching@gmail.com
 
-\***\***\
-Online Coaching: Personalized Run Coaching Service\*\*
+\***\***Online Coaching: Personalized Run Coaching Service\*\*
 
 This plan is for runners who are interested in a fully customized training schedule, updated each week based on how the previous week’s training went. We will make ourselves available to answer all of your questions via email, phone (twice monthly) and text message as needed.
 
