@@ -14,7 +14,7 @@ export const ProfilePageTemplate = ({ title, content, contentComponent }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                The title is {title}
+                {title}
               </h2>
               <PageContent className="content" content={content} />
 
