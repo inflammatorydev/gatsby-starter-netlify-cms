@@ -3,7 +3,7 @@ templateKey: coaching-page
 title: Coaching Services
 title2: ..
 ---
-\##Online Coaching: Personalized Run Coaching Service
+\## Online Coaching: Personalized Run Coaching Service
 
 This plan is for runners who are interested in a fully customized training schedule, updated each week based on how the previous week’s training went. We will make ourselves available to answer all of your questions via email, phone (twice monthly) and text message as needed.
 
