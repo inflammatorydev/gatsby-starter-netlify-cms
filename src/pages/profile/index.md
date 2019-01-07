@@ -19,14 +19,13 @@ I learned early from my parents that the best reward for working hard to achieve
 
 ![](/img/mom-ann-western-states-100-mile-1989.jpg)
 
-## Ann Trason is a 14-time women’s champion at the Western States 100.
+**Ann Trason is a 14-time women’s champion at the Western States 100**
 
 **She set World Records** 
 
 at the 50-mile (5:40:18 in 1991), 
 
 100K (7:00:47, 1995), 
-
 
 12-Hour (91 miles 1312 yards, 1991) 
 
@@ -42,41 +41,39 @@ Ann is a featured columnist at Ultrarunning Magazine
 
 ## Ann Trason Running Career Highlights
 
-## Western States Endurance Run
+**Western States Endurance Run**
 
 14 time women’s winner (1989-1999 & 2000-2003) Held course record for 18 years (17:37), until surpassed by Ellie Greenwood in 2012. Second Place Overall 1995 & 1994, third place 1996, 1993, & 1992 Thirteen times in top 10 overall.
 
-
-
 ![](/img/ann-cougar-1989-martin-jones.jpg)
 
-## Leadville Trail 100
+**Leadville Trail 100**
 
 Four-time women’s winner (1988, 1990, 1994, 1998), course record holder (18:06)
 
 Second overall in 1994, third Place 1990
 
-## Grand Slam Finisher 1998
+**Grand Slam Finisher 1998**
 
 (79:23:21)
 
 Fastest cumulative female time
 
-## Comrades Marathon (54 miles)
+**Comrades Marathon (54 miles)**
 
 South Africa Two-time women’s winner 1996 and 1999, and set the uphill women’s course record (6:13) in 1996.
 
 ![](/img/ann-nelson-mandella-comrades-1996.jpg)
 
-## 100 Kilometer World Championship
+**100 Kilometer World Championship**
 
 Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
-## 1989 TAC(now U.S.A Track & Field)
+**1989 TAC(now U.S.A Track & Field)**
 
 24-Hour National Championship First & only women to win National Track & Field Championship outright.
 
-## Races won outright
+**Races won outright**
 
 1994 Silver State 50-Mile Trail Run
 
@@ -88,13 +85,13 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 1989 24 Hour National Championship
 
-## U.S. Olympic Marathon Trails Qualifier
+**U.S. Olympic Marathon Trails Qualifier**
 
 1988, 1992 and 1996
 
-## Only person to qualify for the Olympic Trails Marathon “enroute” to a longer distance
+**Only person to qualify for the Olympic Trails Marathon “enroute” to a longer distance**
 
-## Awards
+**Awards**
 
 1995 American Runner of the Year (Runner’s World magazine)
 
@@ -104,10 +101,14 @@ Two-time women’s winner (1998, 1995) Set world record (7:00:47) 1995
 
 1994 Hall of Fame Inductee, Road Runners Club of America
 
-## Personal Bests
+**Personal Bests**
 
 (Road) 40 Mile: 4:26:13 50 Mile: 5:40:18 100 Km: 7:00:47 12 Hour: 90 mi, 1312 yd
 
 (Track) 12 Hour: 91mi, 1258 yd 100 mile: 14:29:44 100 Km: 7:48:14
 
-For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com
+
+
+![](/img/ann-with-group.jpg)
+
+For information about Ann’s Run Coaching Services, visit her Coaching Page. You can also contact Ann directly regarding coaching at anntrasoncoaching@gmail.com .
