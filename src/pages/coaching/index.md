@@ -17,7 +17,9 @@ If you’re interested in working together on developing a solid training plan, 
 \
 Please,do not hesitate to contact me at anntrasoncoaching@gmail.com
 
-\***\***Online Coaching: Personalized Run Coaching Service\*\*
+![](/img/test2.jpg)
+
+**Online Coaching: Personalized Run Coaching Service**
 
 This plan is for runners who are interested in a fully customized training schedule, updated each week based on how the previous week’s training went. We will make ourselves available to answer all of your questions via email, phone (twice monthly) and text message as needed.
 
