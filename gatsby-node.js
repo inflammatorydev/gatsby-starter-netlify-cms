@@ -33,6 +33,9 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id
+      console.log('AAAAAAAAAAAAAAABV ', id);
+
+if (id !== '290c2a47-4bd5-595f-a69b-a3e10ac93239') {
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
@@ -44,6 +47,8 @@ exports.createPages = ({ actions, graphql }) => {
           id,
         },
       })
+    }
+
     })
 
     // Tag pages:

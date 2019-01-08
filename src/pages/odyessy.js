@@ -40,8 +40,6 @@ export default class OdyessyPage extends React.Component {
 
     return (
       <Layout>
-
-  
     <section className="hero">
       <div className="background-image"></div>
       <div className="blockquote-container">
