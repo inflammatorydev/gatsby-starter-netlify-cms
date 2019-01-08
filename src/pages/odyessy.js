@@ -240,6 +240,7 @@ export const odyessyQuery = graphql`
       html
       frontmatter {
         title
+        title2
       }
     }
   }
