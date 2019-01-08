@@ -23,6 +23,66 @@ export default class OdyessyPage extends React.Component {
         fill: "green",
         clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
       },
+      "LA": {
+        fill: "blue",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "SC": {
+        fill: "pink",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "VA": {
+        fill: "yellow",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "KS": {
+        fill: "pink",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "NH": {
+        fill: "orange",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "IL": {
+        fill: "Violet",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "IL": {
+        fill: "Indigo",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "FL": {
+        fill: "Violet",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "GA": {
+        fill: "Red",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "VT": {
+        fill: "Orange",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "CA": {
+        fill: "Violet",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "MO": {
+        fill: "Red",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "NV": {
+        fill: "Blue",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "AZ": {
+        fill: "Pink",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
+      "ID": {
+        fill: "Pink",
+        clickHandler: (event) => console.log('Custom handler for TX', event.target.dataset)
+      },
     };
   };
 
@@ -56,6 +116,8 @@ export default class OdyessyPage extends React.Component {
             <div className="content">
 
 <h2>{data.test2.edges[0].node.frontmatter.title}</h2>
+
+<p>{data.test2.edges[0].node.frontmatter.title2}</p>
 
 
 
