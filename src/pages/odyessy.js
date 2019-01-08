@@ -2,9 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Content, { HTMLContent } from '../components/Content'
 import USAMap from "react-usa-map";
 
 
+
+// export const CoachingPageTemplate = ({ title, content, contentComponent }) => {
 export default class OdyessyPage extends React.Component {
   mapHandler = (event) => {
     alert(event.target.dataset.name);
@@ -25,13 +28,14 @@ export default class OdyessyPage extends React.Component {
 
 
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    console.log('Data d isdddd ', this.props.data.test1);
+    const { data } = this.props;
+    const { edges: posts } = data.test1;
 
 
     console.log('Data d is ', data);
 
-    const newData = data.allMarkdownRemark.edges[0].node;
+    const newData = data.test1.edges[0].node;
 
 
     return (
@@ -53,6 +57,7 @@ export default class OdyessyPage extends React.Component {
           <div className="container main">
             <div className="content">
 
+<h2>{data.test2.edges[0].node.frontmatter.title}</h2>
 
 
 
@@ -60,6 +65,7 @@ export default class OdyessyPage extends React.Component {
 <USAMap customize={this.statesCustomConfig()} onClick={this.mapHandler} />
 
 
+<HTMLContent className="content" content={data.test2.edges[0].node.html} />
 
               <h1 className="has-text-weight-bold is-size-2">Latest Posts</h1>
             </div>
@@ -147,7 +153,7 @@ OdyessyPage.propTypes = {
 
 export const odyessyQuery = graphql`
   query OdyessyQuery {
-    allMarkdownRemark(
+    test1: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
       filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
     ) {
@@ -166,5 +172,51 @@ export const odyessyQuery = graphql`
         }
       }
     }
+    test2: allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/odyessy/"} }) {
+  edges {
+    node {
+      id
+      fileAbsolutePath
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+}
   }
 `
+
+
+
+// test1: allMarkdownRemark(
+//   sort: { order: DESC, fields: [frontmatter___date] },
+//   filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+// ) {
+//   edges {
+//     node {
+//       excerpt(pruneLength: 400)
+//       id
+//       fields {
+//         slug
+//       }
+//       frontmatter {
+//         title
+//         templateKey
+//         date(formatString: "MMMM DD, YYYY")
+//       }
+//     }
+//   }
+// }
+// test2: allMarkdownRemark(filter: { fileAbsolutePath: {regex : "\/pages/coaching/"} }) {
+//   edges {
+//     node {
+//       id
+//       fileAbsolutePath
+//       html
+//       frontmatter {
+//         title
+//       }
+//     }
+//   }
+// }

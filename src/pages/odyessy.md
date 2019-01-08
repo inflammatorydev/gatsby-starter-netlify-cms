@@ -1,5 +1,5 @@
 ---
-templateKey: index-page
+templateKey: odyessy-page
 title: This is the title of the index page
 slot1title: Odyssey !!!!!!!!
 slot1desc: This is a description of Odyssey .
