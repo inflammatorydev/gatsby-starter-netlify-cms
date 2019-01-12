@@ -359,6 +359,49 @@ cite {
 
 @media (min-width: 1px){
 
+  .odyessy .content {
+    margin-top: 50px;
+  }
+
+  .odyessy .content p {
+    margin: 0 auto;
+  }
+
+
+  .race-details{
+    background-color: #f1e4aa;
+    padding: 25px 0;
+  }
+  .race-details:nth-child(odd) {
+    background-color: #faebb7;
+  }
+
+  
+
+.race-details h2 {
+  font-size: 18px;
+}
+
+.race-details .table-headers td {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.race-details .table-headers span {
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
   .us-state-map {
     width: 90vw;
     margin: 0 auto;
