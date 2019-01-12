@@ -42,12 +42,20 @@ export default class OdyessyPage extends React.Component {
 
   statesCustomConfig = () => {
     return {
+      "CO": {
+        fill: "green",
+        clickHandler: () => this.clickHandler('CO')
+      },
+      "MN": {
+        fill: "green",
+        clickHandler: () => this.clickHandler('MN')
+      },
       "OR": {
         fill: "green",
         clickHandler: () => this.clickHandler('OR')
       },
       "TX": {
-        fill: "green",
+        fill: "yellow",
         clickHandler: () => this.clickHandler('TX')
       },
       "LA": {
@@ -105,6 +113,10 @@ export default class OdyessyPage extends React.Component {
       "ID": {
         fill: "Pink",
         clickHandler: () => this.clickHandler('ID')
+      },
+      "TN": {
+        fill: "Pink",
+        clickHandler: () => this.clickHandler('TN')
       },
     };
   };
@@ -327,7 +339,7 @@ export default class OdyessyPage extends React.Component {
   raceDataState.map((item) => {
 
   return (
-    <div className="race-details"><h2>{item.name}</h2>
+    <div className="race-details"><h2>{item.name}, {item.state}</h2>
   <table>
     <tr className="table-headers">
       <td><span>Year</span></td>
