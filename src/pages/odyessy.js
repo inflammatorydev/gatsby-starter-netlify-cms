@@ -86,6 +86,10 @@ export default class OdyessyPage extends React.Component {
         fill: "Violet",
         clickHandler: () => this.clickHandler('FL')
       },
+      "AR": {
+        fill: "Violet",
+        clickHandler: () => this.clickHandler('AR')
+      },
       "GA": {
         fill: "Red",
         clickHandler: () => this.clickHandler('GA')
@@ -152,7 +156,7 @@ export default class OdyessyPage extends React.Component {
       
        {year: 2018, name: 'Ethan Allen - 24h, Bennington', website: 'https://www.netrailruns.com/ea24' , position: '22', genderPosition: '9', distance: '50m', state: 'VT'},
       
-       {year: 2018, name: 'Shadow of the Giants, 50k, Fish Camp', website: ' http://www.sanjoaquinrunning.com' , position: '157', genderPosition: '71', distance: '100m', state: 'CA'},
+       {year: 2018, name: 'Shadow of the Giants, 50k, Fish Camp', website: ' http://www.sanjoaquinrunning.com' , position: '157', genderPosition: '71', distance: '50k', state: 'CA'},
       
        {year: 2018, name: 'Harriers Elk/Beaver 50k, Victoria', website: ' https://raceroster.com/events/2018/16154/31st-annual-harriers-218-run-elkbeaver-ultras' , position: '20', genderPosition: '11', distance: '50k', state: 'BC'},
       
@@ -353,7 +357,7 @@ export default class OdyessyPage extends React.Component {
       <td style={{borderBottom: 0}}><span>{item.position}</span></td>
       <td style={{borderBottom: 0}}><span>{item.genderPosition}</span></td>
       <td style={{borderBottom: 0}}><span>{item.distance}</span></td>
-  {item.website !== 'null' && <td style={{borderBottom: 0}}><span><a href={item.website}>Website</a></span></td> }
+  {item.website !== null && <td style={{borderBottom: 0}}><span><a href={item.website}>Website</a></span></td> }
     </tr>
     </table>
 </div>);
