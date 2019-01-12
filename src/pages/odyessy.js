@@ -43,19 +43,19 @@ export default class OdyessyPage extends React.Component {
   statesCustomConfig = () => {
     return {
       "CO": {
-        fill: "green",
+        fill: "#f7e294",
         clickHandler: () => this.clickHandler('CO')
       },
       "MN": {
-        fill: "green",
+        fill: "#f7e294",
         clickHandler: () => this.clickHandler('MN')
       },
       "OR": {
-        fill: "green",
+        fill: "orange",
         clickHandler: () => this.clickHandler('OR')
       },
       "TX": {
-        fill: "yellow",
+        fill: "#f7e294",
         clickHandler: () => this.clickHandler('TX')
       },
       "LA": {
@@ -67,7 +67,7 @@ export default class OdyessyPage extends React.Component {
         clickHandler: () => this.clickHandler('SC')
       },
       "VA": {
-        fill: "yellow",
+        fill: "#f7e294",
         clickHandler: () => this.clickHandler('VA')
       },
       "KS": {
@@ -334,9 +334,9 @@ export default class OdyessyPage extends React.Component {
 
 
 
-<div onClick={this.closeDataBox} style={{position: 'absolute', zIndex: 100, top: '40px', left: '20%', width: '60%', height: '100%', backgroundColor: '#fff', border: '1px solid #000', display: this.state.showDetails ? 'block' : 'none'}}>
+<div onClick={this.closeDataBox} style={{position: 'absolute', zIndex: 100, top: '40px', left: '20%', width: '60%', height: 'auto', backgroundColor: '#fff', border: '1px solid #000', display: this.state.showDetails ? 'block' : 'none'}}>
 
-
+<div onClick={this.closeDataBox} style={{position: 'absolute', top: 0, right: 0, backgroundColor: 'orange', borderLeft: '1px solid #ccc', borderBottom: '1px solid #ccc', padding: '10px'}}>Close</div>
 
 { 
 
