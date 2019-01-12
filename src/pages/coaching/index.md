@@ -17,6 +17,10 @@ If you’re interested in working together on developing a solid training plan, 
 \
 Please,do not hesitate to contact me at anntrasoncoaching@gmail.com
 
+
+
+\*\*Expertise that can go the distance and have fun doing it\*\*
+
 ![](/img/test2.jpg)
 
 **Online Coaching: Personalized Run Coaching Service**
