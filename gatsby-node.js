@@ -33,7 +33,6 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id
-      console.log('AAAAAAAAAAAAAAABV2 ', edge.node.frontmatter.templateKey);
 
 if (edge.node.frontmatter.templateKey !== 'odyessy-page') {
       createPage({

@@ -17,9 +17,6 @@ export const ProfilePageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-
-
-
             </div>
           </div>
         </div>
@@ -36,8 +33,6 @@ ProfilePageTemplate.propTypes = {
 
 const ProfilePage = ({ data }) => {
   const { markdownRemark: post } = data
-
-  console.log('data is ', data);
 
   return (
     <Layout>

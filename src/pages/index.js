@@ -10,7 +10,6 @@ export default class IndexPage extends React.Component {
     super(props);
     this.state = { togglingNav: true };
     this.toggleNav = e => {
-      console.log('ok!!!!!');
       this.setState({ togglingNav: !this.state.togglingNav});
     };
 
@@ -28,11 +27,7 @@ export default class IndexPage extends React.Component {
     const { data } = this.props
     //const { edges: posts } = data.allMarkdownRemark
 
-
-    console.log('Data d is ', data);
-
     const newData = data.allMarkdownRemark.edges[0].node;
-
 
     return (
       <Layout toggleNav={this.toggleNav}>
@@ -61,31 +56,38 @@ export default class IndexPage extends React.Component {
 
       <Link to="/profile">
       
-        <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot1image.childImageSharp.fluid.src})`}}></div>
+        
       
-      <h2 style={{fontFamily: 'Open Sans'}}>{newData.frontmatter.slot1title}</h2>
+      <h2 style={{fontFamily: 'Open Sans', padding: '15px 0', backgroundColor: '#14a76c'}}>{newData.frontmatter.slot1title}</h2>
+      <p style={{padding: '10px 20px 20px', fontSize: '14px'}}>An example text that goes over two lines to describe what this is.</p>
         </Link>
       </div>
 
 
       <div className="test2">
       <Link to="/coaching">
-      <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot2image.childImageSharp.fluid.src})`}}></div>
-        <h2>{newData.frontmatter.slot2title}</h2>
+      
+        <h2 style={{fontFamily: 'Open Sans', padding: '15px 0', backgroundColor: '#d83f87'}}>{newData.frontmatter.slot2title}</h2>
+        <p style={{padding: '10px 20px 20px', fontSize: '14px'}}>An example text that goes over two lines to describe what this is.</p>
         </Link>
         </div>
 
       <div className="test2">
       <Link to="/odyessy">
-      <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot3image.childImageSharp.fluid.src})`}}></div>
-        <h2>{newData.frontmatter.slot3title}</h2>
+      
+        <h2 style={{fontFamily: 'Open Sans', padding: '15px 0', backgroundColor: '#ff652f'}}>{newData.frontmatter.slot3title}</h2>
+        <p style={{padding: '10px 20px 20px', fontSize: '14px'}}>An example text that goes over two lines to describe what this is.</p>
         </Link>
       </div>
 
 
       <div className="test2">
-      <div className="test1 index-image-holder" style={{backgroundImage: `url(${newData.frontmatter.slot4image.childImageSharp.fluid.src})`}}></div>
-        <h2>{newData.frontmatter.slot4title}</h2></div>
+      
+        <h2 style={{fontFamily: 'Open Sans', padding: '15px 0', backgroundColor: '#ffe400'}}>{newData.frontmatter.slot4title}</h2>
+        
+        <p style={{padding: '10px 20px 20px', fontSize: '14px'}}>An example text that goes over two lines to describe what this is.</p>
+        
+        </div>
 
       
       </div>
