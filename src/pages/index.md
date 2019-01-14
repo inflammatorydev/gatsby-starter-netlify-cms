@@ -10,7 +10,7 @@ slot2image: /img/sally.jpg
 slot3title: Trason Ultra Odyssey
 slot3desc: This is a description of Trason Ultra Odyssey
 slot3image: /img/ann-profile-pic-for-odyssey.jpg
-slot4title: Peanuts Adventures
+slot4title: Workouts
 slot4desc: Tteesafdasdfas
 slot4image: /img/peanut.jpg
 ---
